@@ -1,0 +1,82 @@
+/* CSS existente */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #212330;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu-icono {
+    width: 50px;
+}
+
+/* Nuevos estilos para el formulario de login */
+.login-form {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.form-content {
+    background-color: #FBFBFB;
+    padding: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.campo {
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 25px;
+    border: 1px solid #E8E8E8;
+    background-color: #F7F7F7;
+}
+
+.campo::placeholder {
+    color: #A3A3A3;
+}
+
+.register-link {
+    color: #E56820;
+    font-size: 18px;
+}
+
+.register-link:hover {
+    color: #F55442;
+}
+
+footer .footer-content ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-content ul li a {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0 10px;
+}
+
+footer .footer-content ul li a:hover {
+    color: #FFD700;
+}
